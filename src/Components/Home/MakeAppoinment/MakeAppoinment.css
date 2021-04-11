@@ -1,0 +1,16 @@
+.appointment-part {
+  background: linear-gradient(rgba(59, 66, 85, 0.95), rgba(59, 66, 85, 0.95)),
+    url("../../../images/appontment1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: rgb(59, 66, 85);
+  height: 361px;
+  margin: 122px 0 35px;
+}
+
+.appointment-img {
+  position: absolute;
+  left: 48px;
+  top: -139px;
+  width: 500px;
+  height: 440px;
+}

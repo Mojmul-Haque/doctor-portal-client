@@ -1,0 +1,22 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.service-head {
+  margin-top: 55px;
+}
+
+.service-head h3 {
+  color: #203047;
+  padding: 20px 0 75px;
+}
+
+.service-info h5 {
+  font-size: 18px;
+  padding: 26px 0 11px;
+}
+.service-info p {
+  font-size: 16px;
+  color: #b4b4b4;
+  padding: 0 40px;
+}

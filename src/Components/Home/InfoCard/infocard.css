@@ -1,0 +1,18 @@
+.main-card {
+  height: 127px;
+  padding: 31px;
+}
+.card-text p {
+  font-size: 16px;
+}
+.card-text p {
+  font-size: 14px;
+}
+.card-icon svg {
+  font-size: 40px;
+}
+
+.card-text {
+  margin-left: 22px;
+  padding-top: 18px
+}

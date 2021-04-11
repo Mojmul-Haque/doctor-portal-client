@@ -1,0 +1,16 @@
+.features-part {
+  padding: 65px 0 40px;
+}
+.features-part .section-title {
+  color: #203047;
+  padding: 34px 0 37px;
+}
+
+.features-part p {
+  padding: 0 180px 0 0;
+  line-height: 28px;
+}
+
+.features-part .all-btn {
+  margin-top: 40px;
+}

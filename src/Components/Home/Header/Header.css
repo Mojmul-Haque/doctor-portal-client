@@ -1,0 +1,41 @@
+.header-main {
+  height: 500px;
+}
+
+.header-main h1 {
+  color: #3a4256;
+}
+.header-main p {
+  color: #c7c7c7;
+}
+.header-container:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 411px;
+  height: 628px;
+  z-index: -1;
+  background: #3a4256;
+}
+
+.header-main {
+  background: url(../../../images/BannerBgChair.png) no-repeat center;
+  background-size: cover;
+}
+
+.section-title {
+  font-size: 32px;
+}
+.section-sub-title {
+  font-size: 16px;
+  color: #5fc7c7;
+  text-transform: uppercase;
+}
+
+body p {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Open Sans", sans-serif;
+  color: #b4b4b4;
+}
