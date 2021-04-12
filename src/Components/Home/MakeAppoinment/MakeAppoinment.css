@@ -3,14 +3,25 @@
     url("../../../images/appontment1.jpg") no-repeat center center fixed;
   background-size: cover;
   color: rgb(59, 66, 85);
-  height: 361px;
+  height: 464px;
   margin: 122px 0 35px;
 }
 
 .appointment-img {
   position: absolute;
-  left: 48px;
+  left: 10px;
   top: -139px;
-  width: 500px;
+  width: 603px;
   height: 440px;
+}
+
+.appoinment-content {
+  padding: 45px 0;
+}
+.appoinment-content h3 {
+  padding: 12px 0 0;
+  line-height: 62px;
+}
+.appoinment-content p {
+  padding: 13px 16px 27px 0;
 }

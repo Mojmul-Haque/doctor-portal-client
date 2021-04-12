@@ -25,10 +25,10 @@
 }
 
 .section-title {
-  font-size: 32px;
+  font-size: 44px;
 }
 .section-sub-title {
-  font-size: 16px;
+  font-size: 22px;
   color: #5fc7c7;
   text-transform: uppercase;
 }
@@ -38,4 +38,8 @@ body p {
   line-height: 26px;
   font-family: "Open Sans", sans-serif;
   color: #b4b4b4;
+}
+
+.header-container .right-side-link{
+  color: #fff !important;
 }

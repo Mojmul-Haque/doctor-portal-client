@@ -1,0 +1,67 @@
+.contact-part {
+  padding: 80px 0;
+}
+
+.contact-form input {
+  height: 60px;
+  margin-bottom: 25px;
+}
+.message-box {
+  height: 160px;
+  resize: none;
+}
+
+.contact-form {
+  margin: 40px 0 0;
+}
+.email-error,
+.textarea-error,
+.subject-error {
+  width: 200px;
+  position: absolute;
+  z-index: 55;
+  background: orange;
+  height: 44px;
+  color: white;
+  line-height: 45px;
+  text-align: center;
+}
+
+.email-error {
+  right: -226px;
+  top: 5px;
+}
+
+.subject-error {
+  right: -227px;
+  top: 5px;
+}
+
+.textarea-error {
+  right: -229px;
+  top: 51px;
+}
+
+.email-error:after,
+.subject-error:after,
+.textarea-error:after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0;
+  border: 22px solid;
+  border-color: transparent red transparent transparent;
+}
+.email-error:after {
+  left: -44px;
+  top: 0px;
+}
+
+.subject-error:after {
+  left: -44px;
+  top: 0px;
+}
+.textarea-error:after {
+  left: -44px;
+  top: 0px;
+}

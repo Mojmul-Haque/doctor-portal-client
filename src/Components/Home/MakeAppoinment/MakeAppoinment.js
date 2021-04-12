@@ -17,9 +17,11 @@ const MakeAppoinment = () => {
         </div>
         <div className="col-lg-7">
           <div className="appoinment-content">
-            <h4 className=".section-sub-title">Appoinment</h4>
-            <h3 className="section-title">Make An Appoinment Today</h3>
-            <p>
+            <h4 className="section-sub-title">Appoinment</h4>
+            <h3 className="section-title text-white">
+              Make An Appoinment <span className="d-block">Today</span>
+            </h3>
+            <p className="text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
               expedita eum, voluptatem dolore similique qui delectus. Illum,
               assumenda rerum ab possimus sapiente consequatur adipisci

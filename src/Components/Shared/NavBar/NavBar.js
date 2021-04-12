@@ -22,7 +22,7 @@ const Navbar = () => {
               <Link
                 className="nav-link ms-5 active"
                 aria-current="page"
-                to="/home"
+                to="/"
               >
                 Home
               </Link>
@@ -38,17 +38,17 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link ms-5 text-white" to="/reviews">
+              <Link className="nav-link ms-5 right-side-link" to="/reviews">
                 Reviews
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link ms-5 text-white" to="/blog">
+              <Link className="nav-link ms-5 right-side-link" to="/blog">
                 Blog
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link ms-5 text-white" to="/contact">
+              <Link className="nav-link ms-5 right-side-link" to="/contact">
                 Contact Us
               </Link>
             </li>
